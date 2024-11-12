@@ -1,0 +1,67 @@
+.container {
+  height: auto;
+}
+.container h1 {
+  margin: 0 0 2.8rem 0;
+}
+.container section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  background: linear-gradient(transparent 20%, #ff6 10%);
+}
+.container section div {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.container section div label {
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 28px;
+  margin-right: 2rem;
+  padding: 13px 15px;
+  width: 200px;
+  background-color: #00a2ff;
+}
+.container section div input {
+  border: solid #d2d2d2 1px;
+  border-radius: 4px;
+  color: #202124;
+  font-size: 17px;
+  margin: 1px 1px 0 1px;
+  margin-right: 1rem;
+  padding: 13px 15px;
+  z-index: 1;
+  box-shadow: 0;
+  width: 450px;
+}
+.container section div span {
+  color: #202124;
+  font-size: 17px;
+  margin: 1px 1px 0 1px;
+  margin-right: 1rem;
+  z-index: 1;
+  box-shadow: 0;
+}
+.container section div button {
+  position: absolute;
+  bottom: 2.8rem;
+  left: 2.8rem;
+  width: calc(100% - 5.6rem);
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  border: none;
+  border-radius: 1rem;
+  background-color: #00a2ff;
+  padding: 1.4rem;
+  transition: 0.3s;
+}
+.container section div button:hover {
+  color: #959595;
+  background-color: #002e49;
+}

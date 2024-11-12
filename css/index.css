@@ -1,0 +1,146 @@
+@charset "UTF-8";
+.container section:nth-of-type(1) {
+  border: solid #cccccc 1px;
+  width: 100%;
+  padding-bottom: 0;
+  height: auto;
+  max-height: 80%;
+  overflow-y: scroll;
+}
+
+.container section:nth-of-type(1) table {
+  width: 100%;
+}
+
+.container section:nth-of-type(1) table tr:nth-of-type(odd) {
+  background-color: #c2e8ff;
+}
+
+.container section:nth-of-type(1) table th {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  background-color: #00a2ff;
+  padding: 1.4rem;
+}
+
+.container section:nth-of-type(1) table th a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: .2rem;
+}
+
+.container section:nth-of-type(1) table th a:hover {
+  color: #002e49;
+}
+
+.container section:nth-of-type(1) table td {
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.container section:nth-of-type(1) table td a i {
+  margin-right: .5rem;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(1) {
+  text-align: left;
+  width: 35%;
+  max-width: 300px;
+  padding: 0 2.8rem;
+  position: relative;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(1) a {
+  display: block;
+  width: auto;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: .2s;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(1) a:hover {
+  color: #00a2ff;
+  font-weight: bold;
+  background: linear-gradient(transparent 60%, #d5f0fd 60%);
+  padding-left: 1rem;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(1) a:hover::before {
+  content: "内容確認";
+  display: block;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #25b800;
+  padding: .5rem;
+  position: absolute;
+  top: -1rem;
+  left: .2rem;
+  z-index: 100;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(2) {
+  width: 15%;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(3) {
+  width: 25%;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(4) {
+  width: 25%;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(4) a {
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  color: #ffffff;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(4) a:nth-of-type(1) {
+  background-color: #00a2ff;
+  margin-right: 1rem;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(4) a:nth-of-type(1):hover {
+  color: #959595;
+  background-color: #002e49;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(4) a:nth-of-type(2) {
+  background-color: #ff5031;
+}
+
+.container section:nth-of-type(1) table td:nth-of-type(4) a:nth-of-type(2):hover {
+  color: #959595;
+  background-color: #641f13;
+}
+
+.container section:last-child {
+  position: absolute;
+  bottom: 2.8rem;
+  left: 2.8rem;
+  width: calc(100% - 5.6rem);
+}
+
+.container section:last-child button {
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #00a2ff;
+  padding: 1.4rem;
+  transition: .3s;
+}
+
+.container section:last-child button:hover {
+  color: #959595;
+  background-color: #002e49;
+}
+/*# sourceMappingURL=index.css.map */
